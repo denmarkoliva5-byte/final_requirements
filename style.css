@@ -9,6 +9,29 @@ header {
     padding: 20px;
     color: white;
     text-align: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000; 
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Add space at the top so content doesn't hide under the fixed header */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding-top: 120px; /* adjust depending on header height */
+}
+
 }
 
 nav a {
